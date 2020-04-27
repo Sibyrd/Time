@@ -1,0 +1,6 @@
+TextWindow.Write("The date is " + Clock.Date + " / ")
+TextWindow.Write("The time is " + Clock.Time + " / ")
+TextWindow.Write("The year is " + Clock.Year + " / ")
+if Clock.Year = 2020 then
+  TextWindow.Write("Year 2020 Detected! Stay indoors! ")
+EndIf
